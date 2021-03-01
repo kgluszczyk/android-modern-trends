@@ -1,6 +1,5 @@
 package com.modern.android
 
-import com.modern.android.forms.R
 import com.modern.android.forms.entity.Input
 import com.modern.android.forms.entity.InputCheckbox
 import com.modern.android.forms.entity.Toggle
