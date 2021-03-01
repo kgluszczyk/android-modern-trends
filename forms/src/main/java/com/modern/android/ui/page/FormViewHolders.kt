@@ -15,9 +15,6 @@ import androidx.annotation.ColorInt
 import androidx.core.content.ContextCompat
 import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
-import androidx.core.widget.addTextChangedListener
-import androidx.core.widget.doAfterTextChanged
-import androidx.core.widget.doOnTextChanged
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -46,8 +43,6 @@ import com.modern.commons.android.list2.ListItem2
 import com.modern.commons.android.list2.ViewHolder2
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
-import io.reactivex.rxkotlin.addTo
-import timber.log.Timber
 import java.util.concurrent.TimeUnit
 
 class SectionViewHolder(binding: FormItemSectionBinding) :
@@ -187,22 +182,26 @@ class InputViewHolder(
             }
             setSelection(text.length)
             onDetachedFromWindow()
-            //todo Rx It get's called way to often... How about using textChanges()?
-            doOnTextChanged { text, start, before, count ->
-                ifValidPosition {
-                    errorHelper.clearError()
-                    listener.onValueChanged(
-                        ItemAnswer(
-                            questionId = item.inputId,
-                            answer = text.toString(),
-                            type = when (item.inputType) {
-                                ItemInput.InputType.TEXT -> ItemAnswer.AnswerType.STRING
-                                ItemInput.InputType.NUMBER -> ItemAnswer.AnswerType.NUMBER
-                            }
+            textChanges()
+                .skipInitialValue()
+                .debounce(5L, TimeUnit.SECONDS)
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe {
+                    ifValidPosition {
+                        errorHelper.clearError()
+                        println("Text changed!")
+                        listener.onValueChanged(
+                            ItemAnswer(
+                                questionId = item.inputId,
+                                answer = text.toString(),
+                                type = when (item.inputType) {
+                                    ItemInput.InputType.TEXT -> ItemAnswer.AnswerType.STRING
+                                    ItemInput.InputType.NUMBER -> ItemAnswer.AnswerType.NUMBER
+                                }
+                            )
                         )
-                    )
+                    }
                 }
-            }
         }
     }
 

@@ -1,7 +1,9 @@
 package com.modern.android.forms.presentation
 
 import androidx.annotation.WorkerThread
+import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import com.modern.android.forms.domain.GetAnswers
 import com.modern.android.forms.domain.LoadForm
 import com.modern.android.forms.domain.SaveAnswers
@@ -27,6 +29,13 @@ import io.reactivex.rxkotlin.addTo
 import io.reactivex.schedulers.Schedulers
 import io.reactivex.subjects.BehaviorSubject
 import io.reactivex.subjects.PublishSubject
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.asFlow
+import kotlinx.coroutines.flow.collect
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import timber.log.Timber
 import java.util.concurrent.TimeUnit
 
@@ -34,7 +43,7 @@ private const val AUTO_SAVE_DELAY_S = 30L
 
 class FormRendererViewModel constructor(
     private val formContext: FormContext,
-    private val loadForm: LoadForm,
+    private val loadForm3: LoadForm,
     private val getAnswers: GetAnswers,
     private val saveAnswers: SaveAnswers,
     private val formAnswerProvider: FormAnswerProvider,
@@ -45,7 +54,10 @@ class FormRendererViewModel constructor(
 
     private val compositeDisposable = CompositeDisposable()
     private val formSubject = BehaviorSubject.createDefault<Resource<Form, Throwable>>(ResourceLoading)
-    val items: Observable<Resource<List<FormItem>, Throwable>> = formSubject.map { it.toItemsResource() }
+    val itemsRx: Observable<Resource<List<FormItem>, Throwable>> = formSubject.map { it.toItemsResource() }
+        .observeOn(AndroidSchedulers.mainThread())
+    val itemsLiveData = MutableLiveData<Resource<List<FormItem>, Throwable>>(ResourceLoading)
+    val itemsStateFlow = MutableStateFlow<Resource<List<FormItem>, Throwable>>(ResourceLoading)
 
     private val saveSubject = PublishSubject.create<Boolean>()
 
@@ -56,9 +68,15 @@ class FormRendererViewModel constructor(
         loadData()
     }
 
-    //todo Rx fix crash
     fun loadData() {
+        loadDataCoroutinesStateFlow()
+        //loadDataCoroutinesLiveData()
+        //loadDataRx()
+    }
+
+    private fun loadDataRx() {
         Single.fromCallable { loadForm() }
+            .subscribeOn(Schedulers.io())
             .doOnSubscribe { formSubject.onNext(ResourceLoading) }
             .map { it.applyAnswers(getAnswers.execute(formContext, it)) }
             .observeOn(AndroidSchedulers.mainThread())
@@ -73,7 +91,50 @@ class FormRendererViewModel constructor(
             .addTo(compositeDisposable)
     }
 
-    //todo Rx Seems like save is called to often..
+    private fun loadDataCoroutinesStateFlow() {
+        viewModelScope.launch {
+            withContext(Dispatchers.Default) {
+                ::loadForm.asFlow().map {
+                    it.applyAnswers(getAnswers.execute(formContext, it))
+                }.collect { form: Form ->
+                    itemsStateFlow.value = ResourceSuccess(form).toItemsResource()
+                    withContext(Dispatchers.Main) {
+                        runCatching {
+                            itemsStateFlow.value = ResourceSuccess(form).toItemsResource()
+                            observeAnswers()
+                            observeSaveTriggers()
+                        }.onFailure {
+                            Timber.e(it, "Error while loading form")
+                            itemsStateFlow.value = ResourceError(wrapUnauthorizedErrorIfNeeded(it)).toItemsResource()
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    private fun loadDataCoroutinesLiveData() {
+        viewModelScope.launch {
+            withContext(Dispatchers.Default) {
+                ::loadForm.asFlow().map {
+                    it.applyAnswers(getAnswers.execute(formContext, it))
+                }.collect { form: Form ->
+                    itemsStateFlow.value = ResourceSuccess(form).toItemsResource()
+                    withContext(Dispatchers.Main) {
+                        runCatching {
+                            itemsLiveData.value = ResourceSuccess(form).toItemsResource()
+                            observeAnswers()
+                            observeSaveTriggers()
+                        }.onFailure {
+                            Timber.e(it, "Error while loading form")
+                            itemsStateFlow.value = ResourceError(wrapUnauthorizedErrorIfNeeded(it)).toItemsResource()
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     private fun observeSaveTriggers() {
         saveSubject.observeOn(Schedulers.io())
             .debounce {
@@ -81,8 +142,10 @@ class FormRendererViewModel constructor(
             }
             .startWith(false)
             .map { createFormAnswers() }
+            .distinctUntilChanged()
             .skip(1) // skip start with value
             .doOnNext {
+                println("Save me")
                 runCatching { saveAnswers.execute(formContext, it) }
                     .onSuccess { answersSavedProvider.update(true) }
                     .onFailure { Timber.e(it, "Failed to save answers") }
@@ -124,7 +187,7 @@ class FormRendererViewModel constructor(
 
     @WorkerThread
     private fun loadForm(): Form {
-        return loadForm.execute(formContext).also {
+        return loadForm3.execute(formContext).also {
             formId = it.id
         }
     }

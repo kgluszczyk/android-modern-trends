@@ -11,6 +11,7 @@ import androidx.core.os.bundleOf
 import androidx.core.view.isVisible
 import androidx.databinding.BindingAdapter
 import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.lifecycleScope
 import androidx.viewpager.widget.ViewPager
 import com.modern.android.forms.databinding.FormFragmentFormRootBinding
 import com.modern.android.forms.di.FormRendererViewModelFactory
@@ -30,6 +31,7 @@ import com.modern.commons.utils.ResourceSuccess
 import dagger.android.support.DaggerFragment
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.rxkotlin.addTo
+import kotlinx.coroutines.flow.collect
 import timber.log.Timber
 import javax.inject.Inject
 import kotlin.math.max
@@ -81,10 +83,19 @@ class FormRendererFragment : DaggerFragment(), ViewPager.OnPageChangeListener, S
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        //todo Rx Rx hmm....
-        viewModel.items.subscribe({ it.updateResource() }, {
+        viewModel.itemsRx.subscribe({ it.updateResource() }, {
             Timber.e(it, "Failed to load items")
         }).addTo(compositeDisposable)
+
+        viewModel.itemsLiveData.observe(viewLifecycleOwner, {
+            it.updateResource()
+        })
+
+        lifecycleScope.launchWhenStarted {
+            viewModel.itemsStateFlow.collect { form ->
+                form.updateResource()
+            }
+        }
     }
 
     private fun Resource<List<FormItem>, Throwable>.updateResource() {
