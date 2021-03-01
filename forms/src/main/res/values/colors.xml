@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="yellow_normal">#f4ca35</color>
+    <color name="blue_light">#0943b7</color>
+    <color name="blue_alpha">#55073590</color>
+    <color name="message_view_background">#f3f3f8</color>
+    <color name="salmon_pink">#ff6d7a</color>
+    <color name="red_pink">#ec414f</color>
+    <color name="grey_whisper">#F4F5F7</color>
+    <color name="grey_pale">#AEB3BD</color>
+    <color name="black_alpha">#8000</color>
+    <color name="white_alpha">#3FFF</color>
+    <color name="colorPrimary">#073590</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#f4ca35</color>
+    <color name="colorBackground">#f4ca35</color>
+    <color name="colorForeground">#ebba03</color>
+    <color name="textColorPrimary">@color/abc_primary_text_material_dark</color>
+    <color name="textColorPrimaryInverse">#ccffffff</color>
+    <color name="textColorSecondary">@color/blue</color>
+    <color name="textColorSecondaryInverse">@color/abc_secondary_text_material_light</color>
+    <color name="windowBackground">#073590</color>
+    <!-- background_button_*_flat & background_input_flat-->
+    <color name="edittext_flat_input_background">#24ffffff</color>
+    <!--B&W Palette-->
+    <color name="white">#ffffff</color>
+    <color name="white_58">#96FFFFFF</color>
+    <color name="light">#f4f4f4</color>
+    <color name="light_blue">#ecf7ff</color>
+    <color name="pale_grey">#f3f6f8</color>
+    <color name="silver">#d6dce0</color>
+    <color name="slate_grey">#606975</color>
+    <color name="slate_grey_30">#4c606975</color>
+    <color name="charcoal_grey">#3b3f45</color>
+    <color name="inactive">#663b3f45</color>
+    <color name="inactive_white">#66ffffff</color>
+    <color name="active">#66FFFFFF</color>
+    <!--Colors Palette -->
+    <color name="light_golden_yellow">#fedf24</color>
+    <color name="golden_yellow">#fcc210</color>
+    <color name="twilight_blue">#083590</color>
+    <color name="blue">#0d49c0</color>
+    <color name="water_blue">#1277ca</color>
+    <color name="dark_sky_blue">#2a93e6</color>
+    <color name="light_navy_3">#07132e60</color>
+    <color name="navy_blue_47">#77001b50</color>
+    <color name="red_alpha">#feb1b1</color>
+</resources>

@@ -1,0 +1,574 @@
+[
+  {
+    "id": 586,
+    "title": "The form",
+    "pages": [
+      {
+        "title": "Start of the day",
+        "items": [
+          {
+            "type": "HEADER",
+            "title": "Information",
+            "mandatory": false
+          },
+          {
+            "type": "TEXT",
+            "title": "Date",
+            "value": "16-09-2020",
+            "mandatory": false
+          },
+          {
+            "type": "TEXT",
+            "title": "No's",
+            "value": "GREEK, 9187",
+            "mandatory": false
+          },
+          {
+            "type": "TEXT",
+            "title": "Type",
+            "value": "ABCD",
+            "mandatory": false
+          },
+          {
+            "type": "TEXT",
+            "title": "Code",
+            "value": "EIDWH",
+            "mandatory": false
+          },
+          {
+            "type": "TEXT",
+            "title": "Name",
+            "value": "APPOLLO",
+            "mandatory": false
+          },
+          {
+            "id": 588,
+            "type": "INPUT_TEXT",
+            "title": "Bar No.",
+            "hint": "Enter",
+            "mandatory": false
+          },
+          {
+            "id": 589,
+            "type": "INPUT_TOGGLE",
+            "title": "Greek?",
+            "value": "No",
+            "mandatory": false
+          },
+          {
+            "type": "REARRANGE_LIST",
+            "title": "Are Gods pleased?",
+            "mandatory": false,
+            "items": [
+              {
+                "id": 591,
+                "type": "REARRANGE_LIST_ITEM",
+                "title": "1",
+                "value": "JUPITER • ROMAN",
+                "mandatory": false
+              },
+              {
+                "id": 592,
+                "type": "REARRANGE_LIST_ITEM",
+                "title": "2",
+                "value": "JANUS • ROMAN",
+                "mandatory": false
+              },
+              {
+                "id": 593,
+                "type": "REARRANGE_LIST_ITEM",
+                "title": "3",
+                "value": "ATENA • JU",
+                "mandatory": false
+              },
+              {
+                "id": 594,
+                "type": "REARRANGE_LIST_ITEM",
+                "title": "4",
+                "value": "ZEUS • GREEK",
+                "mandatory": false
+              }
+            ]
+          },
+          {
+            "type": "HEADER",
+            "title": "Briefing",
+            "mandatory": false
+          },
+          {
+            "id": 600,
+            "type": "INPUT_TOGGLE",
+            "title": "Briefing",
+            "value": "No",
+            "mandatory": false
+          },
+          {
+            "type": "HEADER",
+            "title": "Morning issues",
+            "mandatory": false
+          },
+          {
+            "type": "HEADER_2",
+            "title": "Smither#1",
+            "mandatory": false
+          },
+          {
+            "id": 603,
+            "type": "INPUT_TEXT",
+            "title": "God number",
+            "hint": "Enter",
+            "mandatory": false
+          },
+          {
+            "id": 604,
+            "type": "INPUT_TEXT",
+            "title": "Issue",
+            "hint": "Enter",
+            "mandatory": false
+          },
+          {
+            "type": "HEADER_2",
+            "title": "VPOS #2",
+            "mandatory": false
+          },
+          {
+            "id": 606,
+            "type": "INPUT_TEXT",
+            "title": "Sword number",
+            "hint": "Enter",
+            "mandatory": false
+          },
+          {
+            "id": 607,
+            "type": "INPUT_TEXT",
+            "title": "Issue",
+            "hint": "Enter",
+            "mandatory": false
+          },
+          {
+            "type": "HEADER_2",
+            "title": "VPOS #3",
+            "mandatory": false
+          },
+          {
+            "id": 609,
+            "type": "INPUT_TEXT",
+            "title": "Bow number",
+            "hint": "Enter",
+            "mandatory": false
+          },
+          {
+            "id": 610,
+            "type": "INPUT_TEXT",
+            "title": "Issue",
+            "hint": "Enter",
+            "mandatory": false
+          },
+          {
+            "type": "HEADER_2",
+            "title": "VPOS #4",
+            "mandatory": false
+          },
+          {
+            "id": 612,
+            "type": "INPUT_TEXT",
+            "title": "Armor number",
+            "hint": "Enter",
+            "mandatory": false
+          },
+          {
+            "id": 613,
+            "type": "INPUT_TEXT",
+            "title": "Issue",
+            "hint": "Enter",
+            "mandatory": false
+          },
+          {
+            "type": "HEADER",
+            "title": "Water/Waste",
+            "mandatory": false
+          },
+          {
+            "id": 627,
+            "type": "INPUT_DROPDOWN",
+            "title": "Water/Waste cleaned up",
+            "value": "N/A",
+            "mandatory": false,
+            "items": [
+              {
+                "type": "TEXT",
+                "title": "N/A",
+                "mandatory": false
+              },
+              {
+                "type": "TEXT",
+                "title": "YES",
+                "mandatory": false
+              },
+              {
+                "type": "TEXT",
+                "title": "NO",
+                "mandatory": false
+              }
+            ]
+          },
+          {
+            "id": 631,
+            "type": "INPUT_DROPDOWN",
+            "title": "Water/Waste fixed",
+            "value": "N/A",
+            "mandatory": false,
+            "items": [
+              {
+                "type": "TEXT",
+                "title": "N/A",
+                "mandatory": false
+              },
+              {
+                "type": "TEXT",
+                "title": "YES",
+                "mandatory": false
+              },
+              {
+                "type": "TEXT",
+                "title": "NO",
+                "mandatory": false
+              }
+            ]
+          },
+          {
+            "type": "HEADER",
+            "title": "Warriors dispatched",
+            "mandatory": false
+          },
+          {
+            "id": 636,
+            "type": "INPUT_TOGGLE",
+            "title": "2 x Archers",
+            "value": "No",
+            "mandatory": false
+          },
+          {
+            "id": 637,
+            "type": "INPUT_TOGGLE",
+            "title": "War cry",
+            "value": "No",
+            "mandatory": false
+          },
+          {
+            "type": "HEADER",
+            "title": "God of War",
+            "mandatory": false
+          },
+          {
+            "id": 639,
+            "type": "INPUT_TOGGLE",
+            "title": "Warriors update",
+            "value": "No",
+            "mandatory": false,
+            "subtitle": "All warriors updated prior to Briefing"
+          },
+          {
+            "id": 640,
+            "type": "INPUT_TOGGLE",
+            "title": "PU has printer",
+            "value": "No",
+            "mandatory": false
+          },
+          {
+            "id": 641,
+            "type": "INPUT_TOGGLE",
+            "title": "Archer has arrows",
+            "value": "No",
+            "mandatory": false
+          },
+          {
+            "type": "HEADER",
+            "title": "Cooler bags",
+            "mandatory": false
+          },
+          {
+            "id": 643,
+            "type": "INPUT_NUMERIC",
+            "title": "Number archers",
+            "hint": "Enter",
+            "mandatory": false
+          },
+          {
+            "type": "HEADER",
+            "title": "Catapults",
+            "mandatory": false
+          },
+          {
+            "id": 645,
+            "type": "INPUT_TOGGLE",
+            "title": "Cleanliness issue",
+            "value": "No",
+            "mandatory": false,
+            "subtitle": "Start of the day"
+          }
+        ]
+      },
+      {
+        "title": "End of the day",
+        "items": [
+          {
+            "type": "HEADER",
+            "title": "Wounded",
+            "mandatory": false
+          },
+          {
+            "id": 802,
+            "type": "INPUT_NUMERIC",
+            "title": "Number of casualties",
+            "hint": "Enter",
+            "mandatory": false
+          },
+          {
+            "type": "HEADER",
+            "title": "Ovens",
+            "mandatory": false
+          },
+          {
+            "id": 804,
+            "type": "INPUT_TOGGLE",
+            "title": "Cleanliness issue",
+            "value": "No",
+            "mandatory": false,
+            "subtitle": "At the end of the day"
+          },
+          {
+            "id": 805,
+            "type": "INPUT_TOGGLE",
+            "title": "Any God died",
+            "value": "No",
+            "mandatory": false,
+            "subtitle": "Cleanliness issue for start/end recorded in the cabin defects log book"
+          },
+          {
+            "type": "HEADER",
+            "title": "Tresure summary",
+            "mandatory": false
+          },
+          {
+            "id": 807,
+            "type": "INPUT_NUMERIC",
+            "title": "Total gold",
+            "hint": "Enter",
+            "mandatory": false
+          },
+          {
+            "id": 808,
+            "type": "INPUT_NUMERIC",
+            "title": "Total diamonts",
+            "hint": "Enter",
+            "mandatory": false
+          },
+          {
+            "id": 809,
+            "type": "INPUT_NUMERIC",
+            "title": "Overall Achievements",
+            "hint": "Enter",
+            "mandatory": false
+          },
+          {
+            "id": 810,
+            "type": "INPUT_NUMERIC",
+            "title": "Killed",
+            "hint": "Enter",
+            "mandatory": false
+          },
+          {
+            "type": "HEADER",
+            "title": "Summary",
+            "mandatory": false
+          },
+          {
+            "type": "HEADER_2",
+            "title": "Helmets",
+            "mandatory": false
+          },
+          {
+            "id": 813,
+            "type": "INPUT_NUMERIC",
+            "title": "No",
+            "hint": "Enter",
+            "mandatory": false
+          },
+          {
+            "type": "HEADER_2",
+            "title": "Orcs",
+            "mandatory": false
+          },
+          {
+            "type": "ROW",
+            "mandatory": false,
+            "items": [
+              {
+                "id": 816,
+                "type": "INPUT_NUMERIC",
+                "title": "From",
+                "hint": "Enter",
+                "mandatory": false
+              },
+              {
+                "id": 817,
+                "type": "INPUT_NUMERIC",
+                "title": "To",
+                "hint": "Enter",
+                "mandatory": false
+              }
+            ]
+          },
+          {
+            "type": "HEADER_2",
+            "title": "Elfs",
+            "mandatory": false
+          },
+          {
+            "type": "ROW",
+            "mandatory": false,
+            "items": [
+              {
+                "id": 820,
+                "type": "INPUT_NUMERIC",
+                "title": "From",
+                "hint": "Enter",
+                "mandatory": false
+              },
+              {
+                "id": 821,
+                "type": "INPUT_NUMERIC",
+                "title": "To",
+                "hint": "Enter",
+                "mandatory": false
+              }
+            ]
+          },
+          {
+            "type": "HEADER_2",
+            "title": "Metal",
+            "mandatory": false
+          },
+          {
+            "type": "ROW",
+            "mandatory": false,
+            "items": [
+              {
+                "id": 824,
+                "type": "INPUT_NUMERIC",
+                "title": "From",
+                "hint": "Enter",
+                "mandatory": false
+              },
+              {
+                "id": 825,
+                "type": "INPUT_NUMERIC",
+                "title": "To",
+                "hint": "Enter",
+                "mandatory": false
+              }
+            ]
+          },
+          {
+            "type": "HEADER_2",
+            "title": "Panic attacks",
+            "mandatory": false
+          },
+          {
+            "type": "ROW",
+            "mandatory": false,
+            "items": [
+              {
+                "id": 828,
+                "type": "INPUT_NUMERIC",
+                "title": "From",
+                "hint": "Enter",
+                "mandatory": false
+              },
+              {
+                "id": 829,
+                "type": "INPUT_NUMERIC",
+                "title": "To",
+                "hint": "Enter",
+                "mandatory": false
+              }
+            ]
+          },
+          {
+            "type": "HEADER",
+            "title": "Notes",
+            "mandatory": false
+          },
+          {
+            "id": 831,
+            "type": "INPUT_CHECKBOX",
+            "title": "I confirm",
+            "value": "No",
+            "mandatory": false,
+            "subtitle": "GOd confirms to take whole responsibility"
+          },
+          {
+            "type": "HEADER",
+            "title": "VPOS Devices",
+            "mandatory": false
+          },
+          {
+            "id": 833,
+            "type": "INPUT_TOGGLE",
+            "title": "Correctness of data",
+            "value": "No",
+            "mandatory": false,
+            "subtitle": "Correct data is filled"
+          },
+          {
+            "id": 834,
+            "type": "INPUT_CHECKBOX",
+            "title": "I confirm",
+            "value": "No",
+            "mandatory": true,
+            "subtitle": "All is in my hands"
+          },
+          {
+            "type": "HEADER",
+            "title": "Debriefing",
+            "mandatory": false
+          },
+          {
+            "id": 836,
+            "type": "INPUT_TOGGLE",
+            "title": "Debriefing",
+            "value": "No",
+            "mandatory": true
+          },
+          {
+            "type": "HEADER",
+            "title": "Other Issues",
+            "mandatory": false
+          },
+          {
+            "id": 838,
+            "type": "INPUT_TEXT",
+            "title": "Out of materials",
+            "hint": "Enter",
+            "mandatory": false
+          },
+          {
+            "id": 839,
+            "type": "INPUT_TEXT",
+            "title": "Lost and Found",
+            "hint": "Enter",
+            "mandatory": false
+          },
+          {
+            "id": 840,
+            "type": "INPUT_TEXT",
+            "title": "God name",
+            "hint": "Enter",
+            "mandatory": false
+          }
+        ]
+      }
+    ]
+  }
+]

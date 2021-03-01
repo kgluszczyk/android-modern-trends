@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="FormTheme" parent="ModernAndroidTheme.DayNight">
+        <item name="android:windowBackground">@color/form_background</item>
+        <item name="colorAccent">@color/form_azure</item>
+        <item name="colorControlHighlight">@color/form_azure</item>
+        <item name="switchStyle">@style/Widget.AppCompat.CompoundButton.Switch</item>
+        <item name="android:colorForeground">@color/form_gray</item>
+        <item name="android:windowContentTransitions" tools:targetApi="lollipop">true</item>
+        <item name="android:textColorPrimary">@color/form_text_color_primary</item>
+        <item name="android:textColorSecondary">@color/form_text_color_secondary</item>
+        <item name="android:textColorTertiary">@color/form_text_color_tertiary</item>
+        <item name="android:textColorLink">@color/form_text_color_link</item>
+    </style>
+
+    <style name="Form_BottomSheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Form_BottomSheet</item>
+        <item name="buttonStyle">@style/Button</item>
+    </style>
+
+    <style name="Form_BottomSheet" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="Form_PrimaryButton" parent="@style/Text.Bold">
+        <item name="android:background">@drawable/form_button</item>
+        <item name="android:paddingStart">@dimen/padding_large</item>
+        <item name="android:paddingLeft">@dimen/padding_large</item>
+        <item name="android:paddingEnd">@dimen/padding_large</item>
+        <item name="android:paddingRight">@dimen/padding_large</item>
+        <item name="android:paddingTop">@dimen/padding_small_plus</item>
+        <item name="android:textColor">@color/form_button_text_selector</item>
+        <item name="android:paddingBottom">@dimen/padding_small_plus</item>
+    </style>
+
+    <style name="Form_FullScreenDialogStyle" parent="FormTheme">
+        <item name="android:windowNoTitle">true</item>
+        <!-- Set this to true if you want Full Screen without status bar -->
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <!-- This is important! Don't forget to set window background -->
+        <item name="android:windowBackground">@color/form_background</item>
+    </style>
+
+    <style name="Form_SmallButton" parent="Text.Small.Bold">
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:paddingStart">@dimen/padding_small_plus</item>
+        <item name="android:paddingLeft">@dimen/padding_small_plus</item>
+        <item name="android:paddingTop">@dimen/padding_small</item>
+        <item name="android:paddingEnd">@dimen/padding_small_plus</item>
+        <item name="android:paddingRight">@dimen/padding_small_plus</item>
+        <item name="android:paddingBottom">@dimen/padding_small</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+</resources>

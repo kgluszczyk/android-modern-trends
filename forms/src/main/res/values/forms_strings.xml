@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="form_required">Required</string>
+    <string name="form_invalid_value">Invalid value</string>
+    <string name="form_close">Close</string>
+    <string name="form_god_header">Crew</string>
+    <string name="form_send_report">Send Report</string>
+    <string name="form_oops">Oops!</string>
+    <string name="form_error_message">Something went wrong. Try to refresh.</string>
+    <string name="form_of">%1$d of %2$d</string>
+    <string name="form_finish">Finish</string>
+    <string name="form_next">Next</string>
+    <string name="form_send_error_title">Sending Failed</string>
+    <string name="form_send_error">Something went wrong, please try again.</string>
+    <string name="form_retry">Retry</string>
+    <string name="form_send_success_title">Success!</string>
+    <string name="form_send_success">The report has been successfully sent.</string>
+    <string name="form_ok_close">OK, Close</string>
+    <string name="form_refresh_button">Refresh</string>
+    <string name="form_validation_error">Some of the mandatory fields are missing. Please fill them before sending the report.</string>
+    <string name="form_ok">OK</string>
+    <string name="form_back">Back</string>
+    <string name="form_sending">Sending Report…</string>
+    <string name="form_changes_saved">Your changes has been saved</string>
+
+
+</resources>

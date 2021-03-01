@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="form_gray">#9B9EA6</color>
+    <color name="form_black">#242A3C</color>
+    <color name="form_lighter_black">#4B505F</color>
+    <color name="form_border_gray">#EBEBED</color>
+    <color name="form_drag_selection">#E5F3FF</color>
+    <color name="form_carnation">#FF5261</color>
+    <color name="form_white">#FFFFFF</color>
+    <color name="form_hint">#8BA7E1</color>
+    <color name="form_text_color_link">@color/blue</color>
+    <color name="form_background">@color/form_white</color>
+    <color name="form_azure">#008CFF</color>
+    <color name="form_number_background">#0D49C0</color>
+
+    <color name="form_text_color_primary">@color/form_black</color>
+    <color name="form_text_color_secondary">@color/form_white</color>
+    <color name="form_text_color_tertiary">@color/form_lighter_black</color>
+
+</resources>

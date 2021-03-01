@@ -1,0 +1,3 @@
+include ':forms'
+include ':app'
+rootProject.name = "Android Modern Forms"

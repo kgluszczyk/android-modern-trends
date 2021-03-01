@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="indeterminateProgressDuration">650</integer>
+
+    <style name="Button" parent="android:style/Widget.Button">
+        <item name="android:background">@drawable/background_button_flat</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:layout_width">@dimen/login_width</item>
+        <item name="android:textAppearance">@style/Text.Large.Bold</item>
+        <item name="android:textColor">@color/charcoal_grey</item>
+    </style>
+
+    <style name="AlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="IndeterminateProgress" parent="Base.Widget.AppCompat.ProgressBar">
+        <item name="android:indeterminate">true</item>
+        <item name="android:indeterminateDrawable">@drawable/indeterminate_progress_plane</item>
+        <item name="android:indeterminateDuration">@integer/indeterminateProgressDuration</item>
+        <item name="android:interpolator">@android:anim/accelerate_decelerate_interpolator</item>
+    </style>
+
+    <style name="ModernAndroidTheme.DayNight" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:colorForeground">@color/colorForeground</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorPrimaryInverse">@color/textColorPrimaryInverse</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+        <item name="android:textColorSecondaryInverse">@color/textColorSecondaryInverse</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="buttonStyle">@style/Button</item>
+        <item name="alertDialogTheme">@style/AlertDialog</item>
+        <item name="inactiveColor">@color/inactive</item>
+    </style>
+</resources>

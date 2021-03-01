@@ -1,0 +1,2884 @@
+<?xml version="1.0" encoding="utf-8"?><!-- This file is generated, please Do not modify. Create new one with StyleGenerator.py
+in main folder of android-commons -->
+<resources>
+
+    <style name="Text" parent="android:TextAppearance">
+        <item name="android:textSize">@dimen/text_normal</item>
+    </style>
+
+    <style name="Text.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Primary">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="Text.Primary.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Primary.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Primary.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Primary.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Primary.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Primary.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Primary.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Primary.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Primary.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Primary.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Primary.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Primary.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.Primary.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Primary.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Primary.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Primary.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Primary.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.PrimaryInverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Text.PrimaryInverse.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.PrimaryInverse.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.PrimaryInverse.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.PrimaryInverse.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.PrimaryInverse.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.PrimaryInverse.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.PrimaryInverse.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.PrimaryInverse.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.PrimaryInverse.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.PrimaryInverse.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.PrimaryInverse.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.PrimaryInverse.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.PrimaryInverse.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.PrimaryInverse.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.PrimaryInverse.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.PrimaryInverse.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.PrimaryInverse.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Secondary">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="Text.Secondary.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Secondary.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Secondary.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Secondary.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Secondary.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Secondary.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Secondary.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Secondary.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Secondary.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Secondary.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Secondary.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Secondary.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.Secondary.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Secondary.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Secondary.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Secondary.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Secondary.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.SecondaryInverse">
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+    </style>
+
+    <style name="Text.SecondaryInverse.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.SecondaryInverse.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.SecondaryInverse.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.SecondaryInverse.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.SecondaryInverse.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.SecondaryInverse.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.SecondaryInverse.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.SecondaryInverse.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.SecondaryInverse.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.SecondaryInverse.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.SecondaryInverse.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.SecondaryInverse.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.SecondaryInverse.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.SecondaryInverse.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.SecondaryInverse.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.SecondaryInverse.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.SecondaryInverse.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Small">
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+
+    <style name="Text.Small.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Small.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Small.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Small.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Small.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Small.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Small.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Small.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Small.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Small.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Small.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Small.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.Small.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Small.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Small.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Small.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Small.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Small.Primary">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="Text.Small.Primary.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Small.Primary.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Small.Primary.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Small.Primary.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Small.Primary.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Small.Primary.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Small.Primary.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Small.Primary.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Small.Primary.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Small.Primary.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Small.Primary.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Small.Primary.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.Small.Primary.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Small.Primary.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Small.Primary.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Small.Primary.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Small.Primary.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Small.PrimaryInverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Text.Small.PrimaryInverse.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Small.PrimaryInverse.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Small.PrimaryInverse.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Small.PrimaryInverse.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Small.PrimaryInverse.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Small.PrimaryInverse.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Small.PrimaryInverse.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Small.PrimaryInverse.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Small.PrimaryInverse.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Small.PrimaryInverse.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Small.PrimaryInverse.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Small.PrimaryInverse.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.Small.PrimaryInverse.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Small.PrimaryInverse.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Small.PrimaryInverse.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Small.PrimaryInverse.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Small.PrimaryInverse.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Small.Secondary">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="Text.Small.Secondary.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Small.Secondary.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Small.Secondary.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Small.Secondary.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Small.Secondary.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Small.Secondary.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Small.Secondary.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Small.Secondary.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Small.Secondary.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Small.Secondary.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Small.Secondary.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Small.Secondary.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.Small.Secondary.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Small.Secondary.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Small.Secondary.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Small.Secondary.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Small.Secondary.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Small.SecondaryInverse">
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+    </style>
+
+    <style name="Text.Small.SecondaryInverse.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Small.SecondaryInverse.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Small.SecondaryInverse.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Small.SecondaryInverse.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Small.SecondaryInverse.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Small.SecondaryInverse.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Small.SecondaryInverse.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Small.SecondaryInverse.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Small.SecondaryInverse.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Small.SecondaryInverse.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Small.SecondaryInverse.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Small.SecondaryInverse.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.Small.SecondaryInverse.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Small.SecondaryInverse.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Small.SecondaryInverse.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Small.SecondaryInverse.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Small.SecondaryInverse.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.SmallPlus">
+        <item name="android:textSize">@dimen/text_small_plus</item>
+    </style>
+
+    <style name="Text.SmallPlus.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.SmallPlus.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.SmallPlus.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.SmallPlus.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.SmallPlus.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.SmallPlus.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.SmallPlus.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.SmallPlus.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.SmallPlus.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.SmallPlus.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.SmallPlus.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.SmallPlus.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.SmallPlus.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.SmallPlus.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.SmallPlus.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.SmallPlus.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.SmallPlus.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.SmallPlus.Primary">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="Text.SmallPlus.Primary.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.SmallPlus.Primary.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.SmallPlus.Primary.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.SmallPlus.Primary.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.SmallPlus.Primary.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.SmallPlus.Primary.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.SmallPlus.Primary.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.SmallPlus.Primary.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.SmallPlus.Primary.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.SmallPlus.Primary.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.SmallPlus.Primary.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.SmallPlus.Primary.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.SmallPlus.Primary.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.SmallPlus.Primary.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.SmallPlus.Primary.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.SmallPlus.Primary.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.SmallPlus.Primary.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.SmallPlus.PrimaryInverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Text.SmallPlus.PrimaryInverse.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.SmallPlus.PrimaryInverse.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.SmallPlus.PrimaryInverse.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.SmallPlus.PrimaryInverse.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.SmallPlus.PrimaryInverse.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.SmallPlus.PrimaryInverse.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.SmallPlus.PrimaryInverse.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.SmallPlus.PrimaryInverse.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.SmallPlus.PrimaryInverse.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.SmallPlus.PrimaryInverse.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.SmallPlus.PrimaryInverse.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.SmallPlus.PrimaryInverse.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.SmallPlus.PrimaryInverse.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.SmallPlus.PrimaryInverse.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.SmallPlus.PrimaryInverse.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.SmallPlus.PrimaryInverse.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.SmallPlus.PrimaryInverse.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.SmallPlus.Secondary">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="Text.SmallPlus.Secondary.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.SmallPlus.Secondary.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.SmallPlus.Secondary.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.SmallPlus.Secondary.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.SmallPlus.Secondary.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.SmallPlus.Secondary.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.SmallPlus.Secondary.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.SmallPlus.Secondary.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.SmallPlus.Secondary.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.SmallPlus.Secondary.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.SmallPlus.Secondary.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.SmallPlus.Secondary.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.SmallPlus.Secondary.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.SmallPlus.Secondary.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.SmallPlus.Secondary.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.SmallPlus.Secondary.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.SmallPlus.Secondary.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.SmallPlus.SecondaryInverse">
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+    </style>
+
+    <style name="Text.SmallPlus.SecondaryInverse.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.SmallPlus.SecondaryInverse.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.SmallPlus.SecondaryInverse.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.SmallPlus.SecondaryInverse.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.SmallPlus.SecondaryInverse.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.SmallPlus.SecondaryInverse.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.SmallPlus.SecondaryInverse.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.SmallPlus.SecondaryInverse.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.SmallPlus.SecondaryInverse.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.SmallPlus.SecondaryInverse.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.SmallPlus.SecondaryInverse.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.SmallPlus.SecondaryInverse.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.SmallPlus.SecondaryInverse.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.SmallPlus.SecondaryInverse.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.SmallPlus.SecondaryInverse.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.SmallPlus.SecondaryInverse.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.SmallPlus.SecondaryInverse.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Normal">
+        <item name="android:textSize">@dimen/text_normal</item>
+    </style>
+
+    <style name="Text.Normal.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Normal.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Normal.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Normal.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Normal.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Normal.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Normal.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Normal.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Normal.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Normal.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Normal.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Normal.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.Normal.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Normal.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Normal.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Normal.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Normal.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Normal.Primary">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="Text.Normal.Primary.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Normal.Primary.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Normal.Primary.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Normal.Primary.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Normal.Primary.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Normal.Primary.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Normal.Primary.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Normal.Primary.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Normal.Primary.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Normal.Primary.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Normal.Primary.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Normal.Primary.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.Normal.Primary.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Normal.Primary.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Normal.Primary.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Normal.Primary.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Normal.Primary.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Normal.PrimaryInverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Text.Normal.PrimaryInverse.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Normal.PrimaryInverse.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Normal.PrimaryInverse.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Normal.PrimaryInverse.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Normal.PrimaryInverse.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Normal.PrimaryInverse.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Normal.PrimaryInverse.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Normal.PrimaryInverse.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Normal.PrimaryInverse.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Normal.PrimaryInverse.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Normal.PrimaryInverse.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Normal.PrimaryInverse.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.Normal.PrimaryInverse.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Normal.PrimaryInverse.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Normal.PrimaryInverse.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Normal.PrimaryInverse.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Normal.PrimaryInverse.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Normal.Secondary">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="Text.Normal.Secondary.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Normal.Secondary.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Normal.Secondary.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Normal.Secondary.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Normal.Secondary.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Normal.Secondary.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Normal.Secondary.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Normal.Secondary.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Normal.Secondary.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Normal.Secondary.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Normal.Secondary.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Normal.Secondary.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.Normal.Secondary.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Normal.Secondary.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Normal.Secondary.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Normal.Secondary.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Normal.Secondary.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Normal.SecondaryInverse">
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+    </style>
+
+    <style name="Text.Normal.SecondaryInverse.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Normal.SecondaryInverse.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Normal.SecondaryInverse.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Normal.SecondaryInverse.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Normal.SecondaryInverse.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Normal.SecondaryInverse.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Normal.SecondaryInverse.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Normal.SecondaryInverse.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Normal.SecondaryInverse.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Normal.SecondaryInverse.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Normal.SecondaryInverse.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Normal.SecondaryInverse.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.Normal.SecondaryInverse.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Normal.SecondaryInverse.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Normal.SecondaryInverse.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Normal.SecondaryInverse.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Normal.SecondaryInverse.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Big">
+        <item name="android:textSize">@dimen/text_big</item>
+    </style>
+
+    <style name="Text.Big.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Big.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Big.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Big.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Big.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Big.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Big.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Big.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Big.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Big.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Big.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Big.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.Big.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Big.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Big.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Big.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Big.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Big.Primary">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="Text.Big.Primary.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Big.Primary.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Big.Primary.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Big.Primary.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Big.Primary.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Big.Primary.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Big.Primary.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Big.Primary.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Big.Primary.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Big.Primary.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Big.Primary.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Big.Primary.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.Big.Primary.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Big.Primary.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Big.Primary.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Big.Primary.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Big.Primary.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Big.PrimaryInverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Text.Big.PrimaryInverse.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Big.PrimaryInverse.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Big.PrimaryInverse.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Big.PrimaryInverse.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Big.PrimaryInverse.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Big.PrimaryInverse.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Big.PrimaryInverse.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Big.PrimaryInverse.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Big.PrimaryInverse.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Big.PrimaryInverse.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Big.PrimaryInverse.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Big.PrimaryInverse.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.Big.PrimaryInverse.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Big.PrimaryInverse.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Big.PrimaryInverse.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Big.PrimaryInverse.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Big.PrimaryInverse.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Big.Secondary">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="Text.Big.Secondary.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Big.Secondary.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Big.Secondary.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Big.Secondary.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Big.Secondary.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Big.Secondary.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Big.Secondary.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Big.Secondary.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Big.Secondary.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Big.Secondary.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Big.Secondary.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Big.Secondary.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.Big.Secondary.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Big.Secondary.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Big.Secondary.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Big.Secondary.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Big.Secondary.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Big.SecondaryInverse">
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+    </style>
+
+    <style name="Text.Big.SecondaryInverse.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Big.SecondaryInverse.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Big.SecondaryInverse.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Big.SecondaryInverse.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Big.SecondaryInverse.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Big.SecondaryInverse.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Big.SecondaryInverse.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Big.SecondaryInverse.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Big.SecondaryInverse.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Big.SecondaryInverse.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Big.SecondaryInverse.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Big.SecondaryInverse.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.Big.SecondaryInverse.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Big.SecondaryInverse.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Big.SecondaryInverse.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Big.SecondaryInverse.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Big.SecondaryInverse.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Large">
+        <item name="android:textSize">@dimen/text_large</item>
+    </style>
+
+    <style name="Text.Large.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Large.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Large.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Large.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Large.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Large.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Large.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Large.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Large.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Large.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Large.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Large.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.Large.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Large.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Large.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Large.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Large.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Large.Primary">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="Text.Large.Primary.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Large.Primary.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Large.Primary.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Large.Primary.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Large.Primary.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Large.Primary.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Large.Primary.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Large.Primary.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Large.Primary.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Large.Primary.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Large.Primary.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Large.Primary.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.Large.Primary.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Large.Primary.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Large.Primary.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Large.Primary.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Large.Primary.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Large.PrimaryInverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Text.Large.PrimaryInverse.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Large.PrimaryInverse.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Large.PrimaryInverse.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Large.PrimaryInverse.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Large.PrimaryInverse.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Large.PrimaryInverse.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Large.PrimaryInverse.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Large.PrimaryInverse.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Large.PrimaryInverse.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Large.PrimaryInverse.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Large.PrimaryInverse.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Large.PrimaryInverse.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.Large.PrimaryInverse.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Large.PrimaryInverse.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Large.PrimaryInverse.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Large.PrimaryInverse.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Large.PrimaryInverse.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Large.Secondary">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="Text.Large.Secondary.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Large.Secondary.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Large.Secondary.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Large.Secondary.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Large.Secondary.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Large.Secondary.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Large.Secondary.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Large.Secondary.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Large.Secondary.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Large.Secondary.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Large.Secondary.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Large.Secondary.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.Large.Secondary.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Large.Secondary.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Large.Secondary.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Large.Secondary.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Large.Secondary.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Large.SecondaryInverse">
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+    </style>
+
+    <style name="Text.Large.SecondaryInverse.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Large.SecondaryInverse.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Large.SecondaryInverse.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Large.SecondaryInverse.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Large.SecondaryInverse.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Large.SecondaryInverse.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Large.SecondaryInverse.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Large.SecondaryInverse.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Large.SecondaryInverse.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Large.SecondaryInverse.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Large.SecondaryInverse.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Large.SecondaryInverse.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.Large.SecondaryInverse.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Large.SecondaryInverse.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.Large.SecondaryInverse.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.Large.SecondaryInverse.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.Large.SecondaryInverse.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.VeryLarge">
+        <item name="android:textSize">@dimen/text_very_large</item>
+    </style>
+
+    <style name="Text.VeryLarge.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.VeryLarge.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.VeryLarge.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.VeryLarge.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.VeryLarge.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.VeryLarge.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.VeryLarge.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.VeryLarge.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.VeryLarge.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.VeryLarge.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.VeryLarge.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.VeryLarge.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.VeryLarge.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.VeryLarge.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.VeryLarge.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.VeryLarge.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.VeryLarge.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.VeryLarge.Primary">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="Text.VeryLarge.Primary.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.VeryLarge.Primary.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.VeryLarge.Primary.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.VeryLarge.Primary.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.VeryLarge.Primary.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.VeryLarge.Primary.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.VeryLarge.Primary.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.VeryLarge.Primary.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.VeryLarge.Primary.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.VeryLarge.Primary.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.VeryLarge.Primary.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.VeryLarge.Primary.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.VeryLarge.Primary.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.VeryLarge.Primary.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.VeryLarge.Primary.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.VeryLarge.Primary.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.VeryLarge.Primary.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.VeryLarge.PrimaryInverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Text.VeryLarge.PrimaryInverse.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.VeryLarge.PrimaryInverse.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.VeryLarge.PrimaryInverse.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.VeryLarge.PrimaryInverse.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.VeryLarge.PrimaryInverse.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.VeryLarge.PrimaryInverse.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.VeryLarge.PrimaryInverse.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.VeryLarge.PrimaryInverse.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.VeryLarge.PrimaryInverse.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.VeryLarge.PrimaryInverse.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.VeryLarge.PrimaryInverse.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.VeryLarge.PrimaryInverse.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.VeryLarge.PrimaryInverse.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.VeryLarge.PrimaryInverse.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.VeryLarge.PrimaryInverse.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.VeryLarge.PrimaryInverse.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.VeryLarge.PrimaryInverse.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.VeryLarge.Secondary">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="Text.VeryLarge.Secondary.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.VeryLarge.Secondary.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.VeryLarge.Secondary.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.VeryLarge.Secondary.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.VeryLarge.Secondary.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.VeryLarge.Secondary.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.VeryLarge.Secondary.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.VeryLarge.Secondary.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.VeryLarge.Secondary.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.VeryLarge.Secondary.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.VeryLarge.Secondary.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.VeryLarge.Secondary.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.VeryLarge.Secondary.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.VeryLarge.Secondary.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.VeryLarge.Secondary.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.VeryLarge.Secondary.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.VeryLarge.Secondary.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.VeryLarge.SecondaryInverse">
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+    </style>
+
+    <style name="Text.VeryLarge.SecondaryInverse.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.VeryLarge.SecondaryInverse.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.VeryLarge.SecondaryInverse.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.VeryLarge.SecondaryInverse.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.VeryLarge.SecondaryInverse.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.VeryLarge.SecondaryInverse.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.VeryLarge.SecondaryInverse.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.VeryLarge.SecondaryInverse.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.VeryLarge.SecondaryInverse.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.VeryLarge.SecondaryInverse.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.VeryLarge.SecondaryInverse.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.VeryLarge.SecondaryInverse.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.VeryLarge.SecondaryInverse.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.VeryLarge.SecondaryInverse.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.VeryLarge.SecondaryInverse.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.VeryLarge.SecondaryInverse.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.VeryLarge.SecondaryInverse.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.ExtraLarge">
+        <item name="android:textSize">@dimen/text_extra_large</item>
+    </style>
+
+    <style name="Text.ExtraLarge.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Primary">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Primary.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Primary.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Primary.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Primary.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Primary.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Primary.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Primary.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Primary.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Primary.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Primary.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Primary.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Primary.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Primary.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Primary.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Primary.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Primary.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Primary.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.ExtraLarge.PrimaryInverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+
+    <style name="Text.ExtraLarge.PrimaryInverse.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.ExtraLarge.PrimaryInverse.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.ExtraLarge.PrimaryInverse.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.ExtraLarge.PrimaryInverse.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.ExtraLarge.PrimaryInverse.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.ExtraLarge.PrimaryInverse.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.ExtraLarge.PrimaryInverse.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.ExtraLarge.PrimaryInverse.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.ExtraLarge.PrimaryInverse.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.ExtraLarge.PrimaryInverse.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.ExtraLarge.PrimaryInverse.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.ExtraLarge.PrimaryInverse.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.ExtraLarge.PrimaryInverse.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.ExtraLarge.PrimaryInverse.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.ExtraLarge.PrimaryInverse.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.ExtraLarge.PrimaryInverse.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.ExtraLarge.PrimaryInverse.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Secondary">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Secondary.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Secondary.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Secondary.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Secondary.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Secondary.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Secondary.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Secondary.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Secondary.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Secondary.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Secondary.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Secondary.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Secondary.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Secondary.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Secondary.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Secondary.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Secondary.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.ExtraLarge.Secondary.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.ExtraLarge.SecondaryInverse">
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+    </style>
+
+    <style name="Text.ExtraLarge.SecondaryInverse.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.ExtraLarge.SecondaryInverse.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.ExtraLarge.SecondaryInverse.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.ExtraLarge.SecondaryInverse.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.ExtraLarge.SecondaryInverse.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.ExtraLarge.SecondaryInverse.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.ExtraLarge.SecondaryInverse.Bold.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.ExtraLarge.SecondaryInverse.Bold.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.ExtraLarge.SecondaryInverse.Bold.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.ExtraLarge.SecondaryInverse.Bold.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.ExtraLarge.SecondaryInverse.Bold.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.ExtraLarge.SecondaryInverse.Italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Text.ExtraLarge.SecondaryInverse.Italic.SansSerif">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.ExtraLarge.SecondaryInverse.Italic.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Text.ExtraLarge.SecondaryInverse.Italic.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Text.ExtraLarge.SecondaryInverse.Italic.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Text.ExtraLarge.SecondaryInverse.Italic.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+</resources>
