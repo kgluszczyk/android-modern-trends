@@ -79,4 +79,7 @@ dependencies {
     def timber_version = "4.7.1"
     implementation "com.jakewharton.timber:timber:$timber_version"
 
+    implementation "com.google.dagger:hilt-android:$hilt_version"
+    kapt "com.google.dagger:hilt-compiler:$hilt_version"
+
 }

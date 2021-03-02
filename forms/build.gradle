@@ -112,5 +112,8 @@ dependencies {
     testImplementation "io.mockk:mockk:${mockk}"
     testImplementation "com.willowtreeapps.assertk:assertk-jvm:${0.22}"
 
+    implementation "com.google.dagger:hilt-android:$hilt_version"
+    kapt "com.google.dagger:hilt-compiler:$hilt_version"
+
 }
 
