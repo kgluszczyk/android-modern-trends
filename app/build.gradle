@@ -28,6 +28,7 @@ android {
     }
 
     buildFeatures {
+        viewBinding true
         dataBinding = true
     }
 
@@ -78,5 +79,4 @@ dependencies {
 
     def timber_version = "4.7.1"
     implementation "com.jakewharton.timber:timber:$timber_version"
-
 }

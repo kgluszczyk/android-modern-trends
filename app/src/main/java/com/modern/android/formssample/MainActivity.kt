@@ -6,16 +6,19 @@ import com.modern.android.forms.FormRendererFragment
 import com.modern.android.forms.SessionAwareActivity
 import com.modern.android.forms.entity.FormContext
 import com.modern.android.formssample.common.TransactionBuilder
+import com.modern.android.formssample.databinding.ActivityMainBinding
 import dagger.android.support.DaggerAppCompatActivity
 import org.threeten.bp.LocalDate
 
 class MainActivity : DaggerAppCompatActivity(), SessionAwareActivity {
 
     private val formContext = FormContext(god = "GODNAME", date = LocalDate.now())
+    private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
         TransactionBuilder(FormRendererFragment::class.java)
             .withArgs(FormRendererFragment.createArguments(formContext))
             .commit(this, R.id.container)
