@@ -10,6 +10,7 @@ import android.view.inputmethod.InputMethodManager
 import androidx.core.os.bundleOf
 import androidx.core.view.isVisible
 import androidx.databinding.BindingAdapter
+import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import androidx.viewpager.widget.ViewPager
@@ -24,11 +25,13 @@ import com.modern.android.forms.ui.page.PageFormAdapter
 import com.modern.android.forms.ui.send.SendAnswersDialogFragment
 import com.modern.android.forms.ui.showAsNotification
 import com.modern.android.forms.ui.showError
+import com.modern.android.presentation.NavigationSummaryViewModel
 import com.modern.commons.utils.Resource
 import com.modern.commons.utils.ResourceError
 import com.modern.commons.utils.ResourceLoading
 import com.modern.commons.utils.ResourceSuccess
 import dagger.android.support.DaggerFragment
+import dagger.hilt.android.AndroidEntryPoint
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.rxkotlin.addTo
 import kotlinx.coroutines.flow.collect
@@ -37,16 +40,21 @@ import javax.inject.Inject
 import kotlin.math.max
 import kotlin.math.min
 
-class FormRendererFragment : DaggerFragment(), ViewPager.OnPageChangeListener, SummaryCallback {
+@AndroidEntryPoint
+class FormRendererFragment : Fragment(), ViewPager.OnPageChangeListener {
 
     private val PAGE_OFFSET = 2
 
     val formContext: FormContext by lazy { requireNotNull(arguments).getParcelable(FORM_CONTEXT_ARG)!! }
 
+    private val navigationSummaryViewModel : NavigationSummaryViewModel by lazy {
+        ViewModelProvider(requireActivity()).get(NavigationSummaryViewModel::class.java)
+    }
+
     @Inject
     lateinit var viewModelFactory: FormRendererViewModelFactory
     private val viewModel: FormRendererViewModel by lazy {
-        ViewModelProvider(requireActivity(), viewModelFactory).get(FormRendererViewModel::class.java)
+        ViewModelProvider(requireActivity(), viewModelFactory.setFormContext(formContext)).get(FormRendererViewModel::class.java)
     }
 
     private val compositeDisposable = CompositeDisposable()

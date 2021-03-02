@@ -28,7 +28,7 @@ abstract class FormRendererFragmentModule {
     companion object {
 
         @Provides
-        fun provideForContext(fragment: FormRendererFragment) = fragment.formContext
+        fun provideForContext(fragment: Fragment) = fragment.formContext
 
     }
 

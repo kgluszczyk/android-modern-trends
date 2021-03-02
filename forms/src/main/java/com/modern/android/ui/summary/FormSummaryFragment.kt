@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.os.bundleOf
+import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.modern.android.forms.databinding.FormSummaryFragmentBinding
@@ -13,20 +14,24 @@ import com.modern.android.forms.entity.Form
 import com.modern.android.forms.ui.FormSpacingItemDecorator
 import com.modern.android.forms.ui.SummaryCallback
 import com.modern.android.forms.ui.showAsNotification
+import com.modern.android.presentation.NavigationSummaryViewModel
 import dagger.android.support.DaggerFragment
+import dagger.hilt.android.AndroidEntryPoint
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.rxkotlin.addTo
 import timber.log.Timber
 import javax.inject.Inject
 
-class FormSummaryFragment : DaggerFragment(), SummaryAdapter.SummaryListener {
+@AndroidEntryPoint
+class FormSummaryFragment : Fragment(), SummaryAdapter.SummaryListener {
 
     private val compositeDisposable = CompositeDisposable()
     private var binding: FormSummaryFragmentBinding? = null
     private var summaryAdapter = SummaryAdapter(this)
 
-    @Inject
-    lateinit var summaryCallback: SummaryCallback
+    private val navigationSummaryViewModel : NavigationSummaryViewModel by lazy {
+        ViewModelProvider(requireActivity()).get(NavigationSummaryViewModel::class.java)
+    }
 
     @Inject
     lateinit var viewModelFactory: FormSummaryViewModelFactory
@@ -76,11 +81,11 @@ class FormSummaryFragment : DaggerFragment(), SummaryAdapter.SummaryListener {
     }
 
     override fun onPageClicked(page: Int) {
-        summaryCallback.scrollToPage(page + 1)
+        navigationSummaryViewModel.setNavigationAction(NavigationSummaryViewModel.NavigateAction.ScrollToPage(page + 1))
     }
 
     override fun onSendClicked() {
-        summaryCallback.onSendClick()
+        navigationSummaryViewModel.setNavigationAction(NavigationSummaryViewModel.NavigateAction.OnSendClick)
     }
 
     private fun FormSummaryFragmentBinding.setupUi() {

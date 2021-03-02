@@ -6,8 +6,11 @@ import com.modern.android.formssample.common.AppScope
 import com.modern.commons.network.InternetStateLiveData
 import dagger.Module
 import dagger.Provides
+import dagger.hilt.InstallIn
+import dagger.hilt.components.SingletonComponent
 
 @Module
+@InstallIn(SingletonComponent::class)
 class AppModule {
     @Provides
     @AppScope

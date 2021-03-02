@@ -11,10 +11,11 @@ import com.modern.android.forms.presentation.FormAnswerProvider
 import com.modern.android.forms.presentation.FormAnswerSavedProvider
 import com.modern.android.forms.presentation.FormRendererViewModel
 import com.modern.android.forms.presentation.FormValidationStateProvider
+import dagger.assisted.Assisted
+import dagger.assisted.AssistedInject
 import javax.inject.Inject
 
 class FormRendererViewModelFactory @Inject constructor(
-    private val formContext: FormContext,
     private val loadForm: LoadForm,
     private val getAnswers: GetAnswers,
     private val saveAnswers: SaveAnswers,
@@ -23,7 +24,13 @@ class FormRendererViewModelFactory @Inject constructor(
     private val formValidator: Validator,
     private val formValidationStateProvider: FormValidationStateProvider
 ) : ViewModelProvider.Factory {
+    lateinit var  formContext: FormContext
 
+
+    fun setFormContext(formContext: FormContext) : FormRendererViewModelFactory{
+        this.formContext = formContext
+        return this
+    }
     @Suppress("UNCHECKED_CAST")
     override fun <T : ViewModel?> create(modelClass: Class<T>): T {
         return FormRendererViewModel(

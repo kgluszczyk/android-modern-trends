@@ -2,14 +2,17 @@ package com.modern.android.formssample
 
 import android.os.Bundle
 import android.util.Log
+import androidx.appcompat.app.AppCompatActivity
 import com.modern.android.forms.FormRendererFragment
 import com.modern.android.forms.SessionAwareActivity
 import com.modern.android.forms.entity.FormContext
 import com.modern.android.formssample.common.TransactionBuilder
 import dagger.android.support.DaggerAppCompatActivity
+import dagger.hilt.android.AndroidEntryPoint
 import org.threeten.bp.LocalDate
 
-class MainActivity : DaggerAppCompatActivity(), SessionAwareActivity {
+@AndroidEntryPoint
+class MainActivity : AppCompatActivity(), SessionAwareActivity {
 
     private val formContext = FormContext(god = "GODNAME", date = LocalDate.now())
 
