@@ -5,26 +5,23 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.os.bundleOf
+import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.modern.android.forms.databinding.FormMainFragmentBinding
-import com.modern.android.forms.di.PageViewModelFactory
 import com.modern.android.forms.entity.ItemAnswer
 import com.modern.android.forms.ui.FormSpacingItemDecorator
 import com.modern.android.forms.ui.ResettableFragment
-import dagger.android.support.DaggerFragment
+import dagger.hilt.android.AndroidEntryPoint
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.rxkotlin.addTo
 import timber.log.Timber
-import javax.inject.Inject
 
-class FormPageFragment : DaggerFragment(), OnValueChangedListener, ResettableFragment {
-
-    @Inject
-    lateinit var viewModelFactory: PageViewModelFactory
+@AndroidEntryPoint
+class FormPageFragment : Fragment(), OnValueChangedListener, ResettableFragment {
 
     private val viewModel: PageViewModel by lazy {
-        ViewModelProvider(this, viewModelFactory).get(PageViewModel::class.java)
+        ViewModelProvider(this).get(PageViewModel::class.java)
     }
 
     private val disposables = CompositeDisposable()

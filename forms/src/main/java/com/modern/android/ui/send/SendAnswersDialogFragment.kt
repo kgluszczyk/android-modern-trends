@@ -6,22 +6,22 @@ import android.view.View
 import android.view.ViewGroup
 import android.view.ViewPropertyAnimator
 import android.view.animation.AccelerateDecelerateInterpolator
+import androidx.appcompat.app.AppCompatDialogFragment
 import androidx.core.os.bundleOf
 import androidx.core.view.children
 import androidx.fragment.app.DialogFragment
 import androidx.lifecycle.ViewModelProvider
 import com.modern.android.forms.R
 import com.modern.android.forms.databinding.FormSendFragmentBinding
-import com.modern.android.forms.di.SendAnswersViewModelFactory
-import dagger.android.support.DaggerAppCompatDialogFragment
+import dagger.hilt.android.AndroidEntryPoint
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.rxkotlin.addTo
 import timber.log.Timber
-import javax.inject.Inject
 
 private const val DEFAULT_ANIMATION_TIME = 200L
 
-class SendAnswersDialogFragment : DaggerAppCompatDialogFragment() {
+@AndroidEntryPoint
+class SendAnswersDialogFragment : AppCompatDialogFragment() {
 
     private val defaultTranslateSize by lazy {
         requireContext().resources.getDimensionPixelSize(R.dimen.padding_small_plus).toFloat()
@@ -29,10 +29,8 @@ class SendAnswersDialogFragment : DaggerAppCompatDialogFragment() {
     private var animatedChildren = emptyList<View>()
     private val compositeDisposable = CompositeDisposable()
 
-    @Inject
-    lateinit var viewModelFactory: SendAnswersViewModelFactory
     private val viewModel: SendAnswersViewModel by lazy {
-        ViewModelProvider(requireActivity(), viewModelFactory).get(SendAnswersViewModel::class.java)
+        ViewModelProvider(requireActivity()).get(SendAnswersViewModel::class.java)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {

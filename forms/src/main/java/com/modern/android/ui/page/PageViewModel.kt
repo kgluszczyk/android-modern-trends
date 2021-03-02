@@ -6,13 +6,16 @@ import com.modern.android.forms.entity.Page
 import com.modern.android.forms.presentation.FormAnswerProvider
 import com.modern.android.forms.presentation.FormValidationStateProvider
 import com.modern.android.forms.ui.toItems
+import dagger.hilt.android.lifecycle.HiltViewModel
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.rxkotlin.Observables
 import io.reactivex.schedulers.Schedulers
 import io.reactivex.subjects.BehaviorSubject
+import javax.inject.Inject
 
-class PageViewModel constructor(
+@HiltViewModel
+class PageViewModel @Inject constructor(
     private val validationStateProvider: FormValidationStateProvider,
     private val formAnswerProvider: FormAnswerProvider
 ) : ViewModel() {

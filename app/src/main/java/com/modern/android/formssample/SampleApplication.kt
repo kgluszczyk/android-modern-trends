@@ -4,10 +4,7 @@ import android.app.Application
 import android.content.Context
 import androidx.multidex.MultiDex
 import com.jakewharton.threetenabp.AndroidThreeTen
-import com.modern.android.formssample.di.DaggerAppComponent
 import com.modern.android.formssample.di.DatabaseModule
-import dagger.android.AndroidInjector
-import dagger.android.DaggerApplication
 import dagger.hilt.android.HiltAndroidApp
 import timber.log.Timber
 

@@ -7,8 +7,11 @@ import com.modern.android.forms.repository.FormRepository
 import com.modern.android.formssample.db.FormDatabase
 import dagger.Module
 import dagger.Provides
+import dagger.hilt.InstallIn
+import dagger.hilt.components.SingletonComponent
 
 @Module
+@InstallIn(SingletonComponent::class)
 object DatabaseModule {
     lateinit var db: FormDatabase
 

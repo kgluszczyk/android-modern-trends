@@ -1,12 +1,12 @@
 package com.modern.android.forms.presentation
 
-import com.modern.android.di.scopes.FragmentScope
+import dagger.hilt.android.scopes.ActivityRetainedScoped
 import io.reactivex.Observable
 import io.reactivex.schedulers.Schedulers
 import io.reactivex.subjects.BehaviorSubject
 import javax.inject.Inject
 
-@FragmentScope
+@ActivityRetainedScoped
 class FormAnswerSavedProvider @Inject constructor() {
     private val subject = BehaviorSubject.create<Boolean>()
 

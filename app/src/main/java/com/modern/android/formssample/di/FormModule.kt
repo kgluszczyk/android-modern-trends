@@ -8,8 +8,11 @@ import com.modern.android.formssample.repository.GetFormImpl
 import com.modern.android.formssample.repository.SendFormImpl
 import dagger.Module
 import dagger.Provides
+import dagger.hilt.InstallIn
+import dagger.hilt.components.SingletonComponent
 
 @Module
+@InstallIn(SingletonComponent::class)
 class FormModule {
 
     @Provides

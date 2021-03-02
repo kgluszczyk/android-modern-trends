@@ -19,7 +19,6 @@ import com.modern.android.forms.di.FormRendererViewModelFactory
 import com.modern.android.forms.entity.FormContext
 import com.modern.android.forms.entity.FormItem
 import com.modern.android.forms.presentation.FormRendererViewModel
-import com.modern.android.forms.ui.SummaryCallback
 import com.modern.android.forms.ui.hideNotification
 import com.modern.android.forms.ui.page.PageFormAdapter
 import com.modern.android.forms.ui.send.SendAnswersDialogFragment
@@ -30,7 +29,6 @@ import com.modern.commons.utils.Resource
 import com.modern.commons.utils.ResourceError
 import com.modern.commons.utils.ResourceLoading
 import com.modern.commons.utils.ResourceSuccess
-import dagger.android.support.DaggerFragment
 import dagger.hilt.android.AndroidEntryPoint
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.rxkotlin.addTo
@@ -104,6 +102,12 @@ class FormRendererFragment : Fragment(), ViewPager.OnPageChangeListener {
                 form.updateResource()
             }
         }
+        navigationSummaryViewModel.navigationActions.subscribe { navigationAction ->
+            when (navigationAction) {
+                NavigationSummaryViewModel.NavigateAction.OnSendClick -> onSendClick()
+                is NavigationSummaryViewModel.NavigateAction.ScrollToPage -> scrollToPage(page = navigationAction.page)
+            }
+        }.addTo(compositeDisposable)
     }
 
     private fun Resource<List<FormItem>, Throwable>.updateResource() {
@@ -126,11 +130,11 @@ class FormRendererFragment : Fragment(), ViewPager.OnPageChangeListener {
         }
     }
 
-    override fun scrollToPage(page: Int) {
+    fun scrollToPage(page: Int) {
         binding?.pager?.setCurrentItem(page, true)
     }
 
-    override fun onSendClick() {
+    fun onSendClick() {
         if (!viewModel.validateAnswers()) {
             binding?.notification?.showAsNotification()
             return

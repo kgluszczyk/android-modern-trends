@@ -1,13 +1,13 @@
 package com.modern.android.forms.presentation
 
-import com.modern.android.di.scopes.FragmentScope
 import com.modern.android.forms.entity.ValidationError
+import dagger.hilt.android.scopes.ActivityRetainedScoped
 import io.reactivex.Observable
 import io.reactivex.schedulers.Schedulers
 import io.reactivex.subjects.BehaviorSubject
 import javax.inject.Inject
 
-@FragmentScope
+@ActivityRetainedScoped
 class FormValidationStateProvider @Inject constructor() {
     private val subject = BehaviorSubject.createDefault(emptyList<ValidationError>())
 

@@ -1,13 +1,13 @@
 package com.modern.android.forms.presentation
 
-import com.modern.android.di.scopes.FragmentScope
 import com.modern.android.forms.entity.ItemAnswer
+import dagger.hilt.android.scopes.ActivityRetainedScoped
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.subjects.PublishSubject
 import javax.inject.Inject
 
-@FragmentScope
+@ActivityRetainedScoped
 class FormAnswerProvider @Inject constructor() {
     private val subject = PublishSubject.create<List<ItemAnswer>>()
 

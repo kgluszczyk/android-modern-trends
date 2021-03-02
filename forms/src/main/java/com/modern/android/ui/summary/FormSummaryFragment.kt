@@ -9,18 +9,14 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.modern.android.forms.databinding.FormSummaryFragmentBinding
-import com.modern.android.forms.di.FormSummaryViewModelFactory
 import com.modern.android.forms.entity.Form
 import com.modern.android.forms.ui.FormSpacingItemDecorator
-import com.modern.android.forms.ui.SummaryCallback
 import com.modern.android.forms.ui.showAsNotification
 import com.modern.android.presentation.NavigationSummaryViewModel
-import dagger.android.support.DaggerFragment
 import dagger.hilt.android.AndroidEntryPoint
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.rxkotlin.addTo
 import timber.log.Timber
-import javax.inject.Inject
 
 @AndroidEntryPoint
 class FormSummaryFragment : Fragment(), SummaryAdapter.SummaryListener {
@@ -33,10 +29,8 @@ class FormSummaryFragment : Fragment(), SummaryAdapter.SummaryListener {
         ViewModelProvider(requireActivity()).get(NavigationSummaryViewModel::class.java)
     }
 
-    @Inject
-    lateinit var viewModelFactory: FormSummaryViewModelFactory
     private val viewModel: FormSummaryViewModel by lazy {
-        ViewModelProvider(this, viewModelFactory).get(FormSummaryViewModel::class.java)
+        ViewModelProvider(this).get(FormSummaryViewModel::class.java)
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
