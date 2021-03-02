@@ -59,6 +59,8 @@ class FormRendererViewModel constructor(
     val itemsLiveData = MutableLiveData<Resource<List<FormItem>, Throwable>>(ResourceLoading)
     val itemsStateFlow = MutableStateFlow<Resource<List<FormItem>, Throwable>>(ResourceLoading)
 
+    //LB+DB Strumień zapisanych, niepustych odpowiedzi
+
     private val saveSubject = PublishSubject.create<Boolean>()
 
     private var formId = 0L
@@ -137,14 +139,11 @@ class FormRendererViewModel constructor(
 
     private fun observeSaveTriggers() {
         saveSubject.observeOn(Schedulers.io())
-            .debounce {
-                if (it) Observable.empty() else Observable.timer(AUTO_SAVE_DELAY_S, TimeUnit.SECONDS)
-            }
             .startWith(false)
             .map { createFormAnswers() }
-            .distinctUntilChanged()
             .skip(1) // skip start with value
             .doOnNext {
+                //LB+DB Zapisy odpowiedzi
                 println("Save me")
                 runCatching { saveAnswers.execute(formContext, it) }
                     .onSuccess { answersSavedProvider.update(true) }

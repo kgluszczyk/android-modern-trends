@@ -55,6 +55,7 @@ class FormRendererFragment : DaggerFragment(), ViewPager.OnPageChangeListener, S
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         binding = FormFragmentFormRootBinding.inflate(inflater).apply {
+            //LV+DB polacz lifecycle i zrodlo danych
             pager.offscreenPageLimit = PAGE_OFFSET
             pager.adapter = adapter
             pager.addOnPageChangeListener(this@FormRendererFragment)
